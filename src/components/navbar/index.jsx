@@ -6,7 +6,7 @@ import { MenuIcon } from '../../assets/svgIcons';
 
 const NavBar = () => {
 	return (
-		<div className="navbar bg-primary rounded-2xl text-white">
+		<div className="navbar bg-primary rounded-2xl text-white shadow-xl">
 			<div className="navbar-start">
 				<a className="btn btn-ghost text-xl">
 					<img src={Logo} alt="Zwilt Logo" />
@@ -23,7 +23,7 @@ const NavBar = () => {
 						Login
 					</NavLink>
 					<Link
-						to=""
+						to="/"
 						className="btn bg-white text-textDark border-none rounded-2xl hover:bg-lightPurple hover:text-white"
 					>
 						Join Now
@@ -38,13 +38,13 @@ const NavBar = () => {
 					<ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-primary rounded-box w-52 ">
 						<Menu />
 						<li>
-							<NavLink to="/login" className="mr-4">
+							<NavLink to="/" className="mr-4">
 								Login
 							</NavLink>
 						</li>
 						<li>
 							<Link
-								to=""
+								to="/"
 								className="btn bg-white text-textDark border-none rounded-2xl hover:bg-lightPurple hover:text-white"
 							>
 								Join Now
