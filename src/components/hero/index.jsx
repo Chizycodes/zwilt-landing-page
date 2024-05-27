@@ -9,9 +9,9 @@ const Hero = () => {
 	const [activeTab, setActiveTab] = useState(tabs[0]);
 
 	return (
-		<div className="flex justify-center mt-20">
+		<section className="flex justify-center mt-20">
 			<div className="w-full text-textDark flex flex-col items-center gap-10">
-				<h1 className="max-w-3xl text-6xl font-bold leading-[64px]">
+				<h1 className="max-w-3xl text-6xl font-bold leading-[64px] text-center">
 					Finding the right fit <img src={GifImg} alt="Gif" className="w-16 inline" /> has never been easier.
 				</h1>
 				<p className="text-[22px] leading-[32px] max-w-[582px] text-center">
@@ -54,7 +54,7 @@ const Hero = () => {
 					</div>
 				</div>
 			</div>
-		</div>
+		</section>
 	);
 };
 

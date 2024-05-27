@@ -10,6 +10,7 @@ export default {
 				darkPurple: '#AF7CFF',
 				textDark: '#202229',
 				textGray: '#959595',
+				purpleBg: '#EDEFFF',
 			},
 		},
 	},

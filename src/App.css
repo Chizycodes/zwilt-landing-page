@@ -1,3 +1,8 @@
-#root {
+.section {
+  max-width: 1280px;
   margin: 0 auto;
+}
+
+.slanted-border {
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
 }
