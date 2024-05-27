@@ -2,10 +2,19 @@
 export default {
 	content: ['./index.html', './src/**/*.{js,ts,jsx,tsx}'],
 	theme: {
-		extend: {},
+		extend: {
+			colors: {
+				primary: '#525AA0',
+				secondary: '#FFBE2E',
+				lightPurple: '#A285D0',
+				darkPurple: '#AF7CFF',
+				textDark: '#202229',
+				textGray: '#959595',
+			},
+		},
 	},
 	plugins: [require('daisyui')],
 	daisyui: {
-		themes: [],
+		themes: false,
 	},
 };
