@@ -9,7 +9,7 @@ const Section2 = () => {
 	return (
 		<section className="w-full bg-purpleBg py-20 lg:py-40 px-8 slanted-border relative lg:bottom-5">
 			<div className="section text-textDark">
-				<h1 className="lg:text-5xl text-3xl text-center font-bold mb-10 lg:mb-20">
+				<h1 className="md:text-5xl text-3xl text-center font-bold mb-10 lg:mb-20">
 					Your one-stop marketplace for finding
 					<br /> the talent your business needs.
 				</h1>
@@ -28,13 +28,13 @@ const Section2 = () => {
 					</div>
 				))}
 
-				<div className="flex items-center justify-between gap-5 lg:gap-20 text-[22px]">
+				<div className="flex items-center justify-between gap-2 lg:gap-20 md:text-[22px]">
 					<div className="flex items-center cursor-pointer">
-						<Button className="bg-textDark hover:bg-textDark" image={LogoPurple} />
+						<Button className="bg-textDark w-[64px] h-[64px] lg:w-[74px] lg:h-[74px]" image={LogoPurple} />
 						<span className="text-textDark">Explore More</span>
 					</div>
 
-					<div className="absolute left-[46.5%]">
+					<div className="md:absolute md:left-[46.5%]">
 						<p>
 							30 more <span className="text-[#202229CC]">to explore</span>
 						</p>

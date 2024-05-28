@@ -1,5 +1,5 @@
 import './App.css';
-import { NavBar, Hero, Section2 } from './components';
+import { NavBar, Hero, Section2, Testimonial } from './components';
 import UnionImg from './assets/union.svg';
 
 function App() {
@@ -11,6 +11,7 @@ function App() {
 			</div>
 			<img src={UnionImg} alt="Seperator" className="mt-20 w-full" />
 			<Section2 />
+			<Testimonial />
 		</>
 	);
 }

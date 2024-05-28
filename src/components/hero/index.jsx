@@ -11,10 +11,10 @@ const Hero = () => {
 	return (
 		<section className="flex justify-center mt-20">
 			<div className="w-full text-textDark flex flex-col items-center gap-10">
-				<h1 className="max-w-3xl text-6xl font-bold leading-[64px] text-center">
+				<h1 className="max-w-3xl md:text-6xl text-3xl font-bold lg:leading-[64px] text-center">
 					Finding the right fit <img src={GifImg} alt="Gif" className="w-16 inline" /> has never been easier.
 				</h1>
-				<p className="text-[22px] leading-[32px] max-w-[582px] text-center">
+				<p className="md:text-[22px] text-lg mg:leading-[32px] max-w-[582px] text-center">
 					With our rigorous pre-vetting process, you'll never have to worry about finding the ideal candidate ever
 					again.
 				</p>
