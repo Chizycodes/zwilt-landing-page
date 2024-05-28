@@ -3,7 +3,7 @@ import GifImg from '../../assets/hero-gif.gif';
 import LogoImg from '../../assets/logo-dark.svg';
 import { roleList } from '../../utils';
 
-const tabs = ['IT & Development', 'Design and Creative'];
+const tabs = ['IT & Development', 'Design & Creative'];
 
 const Hero = () => {
 	const [activeTab, setActiveTab] = useState(tabs[0]);
@@ -36,7 +36,7 @@ const Hero = () => {
 								key={i}
 								role="tab"
 								// onClick={() => setActiveTab(tab)}
-								className={`tab rounded-2xl h-[44px] text-textDark font-semibold px-5 ${
+								className={`tab rounded-2xl h-[44px] text-textDark font-semibold pr-5 ${
 									activeTab === tab ? 'tab-active bg-[#C7F4C2]' : 'bg-[#D2D2D2] opacity-15'
 								} ${i === 1 ? 'right-2 rounded-l-none' : 'z-10'}`}
 							>

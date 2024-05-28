@@ -12,7 +12,7 @@ const Process = () => {
 	};
 
 	return (
-		<section className="section px-8 pb-20 text-textDark">
+		<section className="section px-8 py-20 text-textDark">
 			<div className="max-w-[635px] mb-20">
 				<h1 className="md:text-5xl text-3xl font-bold mb-5">How we ensure you’re in good hands.</h1>
 				<p className="md:text-[22px] text-base md:leading-8 text-[#1E1515CC] mb-5">

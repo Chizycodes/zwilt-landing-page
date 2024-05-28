@@ -11,6 +11,7 @@ export default {
 				textDark: '#202229',
 				textGray: '#959595',
 				purpleBg: '#EDEFFF',
+				lightGray: '#F6F6F6',
 			},
 		},
 	},

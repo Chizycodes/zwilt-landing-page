@@ -47,6 +47,7 @@ export const Skills = [
 			],
 		},
 		rightSection: {
+			id: 0,
 			title: 'IT & Development',
 			skills: [
 				{
@@ -92,6 +93,7 @@ export const Skills = [
 			],
 		},
 		rightSection: {
+			id: 1,
 			title: 'Design & Creative',
 			skills: [
 				{

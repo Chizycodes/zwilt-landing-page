@@ -1,7 +1,7 @@
 import React from 'react';
 import Menu from './NavMenu';
 import Logo from '../../assets/logo.svg';
-import { Link, NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import { MenuIcon } from '../../assets/svgIcons';
 
 const NavBar = () => {
@@ -19,9 +19,9 @@ const NavBar = () => {
 			</div>
 			<div className="navbar-end">
 				<div className="hidden lg:block">
-					<NavLink to="/login" className="mr-4">
+					<Link to="/login" className="mr-4">
 						Login
-					</NavLink>
+					</Link>
 					<Link
 						to="/"
 						className="btn bg-white text-textDark border-none rounded-2xl hover:bg-lightPurple hover:text-white"
@@ -38,9 +38,9 @@ const NavBar = () => {
 					<ul tabIndex={0} className="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-primary rounded-box w-52 ">
 						<Menu />
 						<li>
-							<NavLink to="/" className="mr-4">
+							<Link to="/" className="mr-4">
 								Login
-							</NavLink>
+							</Link>
 						</li>
 						<li>
 							<Link
