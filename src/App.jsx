@@ -1,5 +1,5 @@
 import './App.css';
-import { NavBar, Hero, Section2, Testimonial, Process } from './components';
+import { NavBar, Hero, Section2, Testimonial, Process, WhyZwilt } from './components';
 import UnionImg from './assets/union.svg';
 
 function App() {
@@ -13,6 +13,7 @@ function App() {
 			<Section2 />
 			<Testimonial />
 			<Process />
+			<WhyZwilt />
 		</>
 	);
 }

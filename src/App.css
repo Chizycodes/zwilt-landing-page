@@ -7,6 +7,14 @@
   clip-path: polygon(0 1%, 100% 0, 100% 99%, 0% 100%);
 }
 
+.gradient-bg {
+  background: linear-gradient(180deg, rgba(237, 239, 255, 0) 0%, #EDEFFF 130.82%);
+}
+
+.drop-shadow-card {
+  box-shadow: 0px 15px 30px 0px #BFB5FF26;
+}
+
 @media (min-width: 1024px) {
   .slanted-border {
       clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);

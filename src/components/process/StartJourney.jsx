@@ -52,10 +52,11 @@ const StartJourney = () => {
 							<h1 className="md:text-4xl text-xl font-bold">{item.title}</h1>
 							<p className="text-base text-textGray">{item.description}</p>
 
-							<div>
-								<Button className="bg-textDark w-[49px] h-[49px] rounded-[20px] mr-4" image={LogoWhite} />
-								<span className="text-sm">{item.buttonText}</span>
-							</div>
+							<Button
+								className="bg-textDark w-[49px] h-[49px] rounded-[20px] mr-4"
+								logoDark={false}
+								text={item.buttonText}
+							/>
 						</div>
 					</div>
 

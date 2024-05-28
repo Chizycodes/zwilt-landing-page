@@ -29,10 +29,11 @@ const Section2 = () => {
 				))}
 
 				<div className="flex items-center justify-between gap-2 lg:gap-20 md:text-[22px]">
-					<div className="flex items-center cursor-pointer">
-						<Button className="bg-textDark w-[64px] h-[64px] lg:w-[74px] lg:h-[74px] mr-4" image={LogoPurple} />
-						<span className="text-textDark">Explore More</span>
-					</div>
+					<Button
+						className="bg-textDark w-[64px] h-[64px] lg:w-[74px] lg:h-[74px] mr-4"
+						logoDark={false}
+						text="Explore More"
+					/>
 
 					<div className="md:absolute md:left-[46.5%]">
 						<p>
