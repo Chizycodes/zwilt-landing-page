@@ -5,3 +5,4 @@ export { default as Testimonial } from './testimonial';
 export { default as Process } from './process';
 export { default as WhyZwilt } from './why-zwilt';
 export { default as Faqs } from './faqs';
+export { default as Footer } from './footer';

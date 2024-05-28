@@ -10,7 +10,7 @@ const faqs = [
 
 const Faq = () => {
 	return (
-		<section className="text-textDark bg-[#F3F3F3] min-h-screen slanted-border relative bottom-5 md:bottom-14 py-20">
+		<section className="text-textDark bg-[#F3F3F3] min-h-screen slanted-border relative bottom-5 md:bottom-14 py-20 pb-[10rem] mb-[-9rem]">
 			<div className="section px-8">
 				<h1 className="md:text-5xl text-3xl text-center font-bold mb-10 lg:mb-20">Frequently asked questions</h1>
 

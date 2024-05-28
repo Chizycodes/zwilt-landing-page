@@ -7,8 +7,20 @@
   clip-path: polygon(0 1%, 100% 0, 100% 99%, 0% 100%);
 }
 
+.slanted-footer {
+  clip-path: polygon(0 10%, 100% 0, 100% 90%, 0% 100%);
+}
+
+.slanted-top {
+  clip-path: polygon(0 5%, 100% 0, 100% 100%, 0% 100%);
+}
+
 .gradient-bg {
   background: linear-gradient(180deg, rgba(237, 239, 255, 0) 0%, #EDEFFF 130.82%);
+}
+
+.footer-gradient {
+  background: linear-gradient(180deg, #0C0C0C 0%, #202229 100%);
 }
 
 .drop-shadow-card {

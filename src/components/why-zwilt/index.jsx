@@ -39,8 +39,8 @@ const CardData = [
 
 const index = () => {
 	return (
-		<section className="gradient-bg text-textDark min-h-screen slanted-border lg:flex">
-			<div className="section px-8 flex flex-col lg:flex-row mt-20 lg:mt-0">
+		<section className="gradient-bg text-textDark md:min-h-screen slanted-border lg:flex pb-28 py-10">
+			<div className="section px-8 flex flex-col lg:flex-row lg:mt-0">
 				<div className="max-w-[380px] mb-8 lg:hidden">
 					<h1 className="md:text-5xl text-3xl font-bold mb-8">Why choose Zwilt?</h1>
 					<p className="md:text-[22px] text-base md:leading-8 text-[#1E1515CC]">

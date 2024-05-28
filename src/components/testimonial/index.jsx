@@ -20,7 +20,7 @@ const Testimonial = () => {
 							Zwilt enabled us to deliver on time and they’ve been heavy hitters in our corner since.
 						</p>
 
-						<div className='flex items-center'>
+						<div className='flex items-center justify-center lg:justify-start'>
 							<Button className="bg-white mr-4" imageStyle="rotate-180" />
 							<Button className="bg-white" />
 						</div>
