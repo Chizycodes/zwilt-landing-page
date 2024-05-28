@@ -84,6 +84,15 @@ const index = () => {
 					</footer>
 				</div>
 			</div>
+			<div className="border-t border-[#a0a3b13b] absolute bottom-0 w-full">
+				<div className="section px-8 py-4 flex justify-between gap-6 text-white text-sm md:text-base font-medium">
+					<p>All rights reserved by Zwilt</p>
+					<div className='flex flex-wrap gap-2 md:gap-5 text-textGray'>
+						<Link to="/" className='link'>Privacy Policy</Link>
+						<Link to="/" className='link'>Terms and Conditions</Link>
+					</div>
+				</div>
+			</div>
 		</section>
 	);
 };
