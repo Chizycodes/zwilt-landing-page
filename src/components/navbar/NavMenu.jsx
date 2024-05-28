@@ -1,23 +1,23 @@
 import React from 'react';
-import { NavLink } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 
 const Menu = () => {
 	return (
 		<>
 			<li>
-				<NavLink>Find Work</NavLink>
+				<Link>Find Work</Link>
 			</li>
 			<li>
-				<NavLink>Find Talent</NavLink>
+				<Link>Find Talent</Link>
 			</li>
 			<li>
-				<NavLink>Articles</NavLink>
+				<Link>Articles</Link>
 			</li>
 			<li>
-				<NavLink>About Us</NavLink>
+				<Link>About Us</Link>
 			</li>
 			<li>
-				<NavLink>Contact Us</NavLink>
+				<Link>Contact Us</Link>
 			</li>
 		</>
 	);
