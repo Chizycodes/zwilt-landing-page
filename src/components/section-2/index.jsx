@@ -7,8 +7,8 @@ import RightSection from './RightSection';
 
 const Section2 = () => {
 	return (
-		<section className="w-full bg-purpleBg py-20 lg:py-40 px-8 slanted-border relative lg:bottom-5">
-			<div className="section text-textDark">
+		<section className="w-full bg-purpleBg py-20 lg:py-40 slanted-border relative lg:bottom-5">
+			<div className="section px-8 text-textDark">
 				<h1 className="md:text-5xl text-3xl text-center font-bold mb-10 lg:mb-20">
 					Your one-stop marketplace for finding
 					<br /> the talent your business needs.

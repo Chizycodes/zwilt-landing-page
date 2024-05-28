@@ -119,55 +119,35 @@ export const Skills = [
 	},
 ];
 
-// export const skills = [
-// 	{
-// 		title: 'IT & Development',
-// 		list: [
-// 			{
-// 				icon: Shopify,
-// 				text: 'Shopify Developer',
-// 			},
-// 			{
-// 				icon: Magento,
-// 				text: 'Magento Developer',
-// 			},
-// 			{
-// 				icon: DataScience,
-// 				text: 'Data Scientist',
-// 			},
-// 			{
-// 				icon: WebFlow,
-// 				text: 'Webflow Developer',
-// 			},
-// 			{
-// 				icon: DotNet,
-// 				text: 'Dot Net Developer',
-// 			},
-// 		],
-// 	},
-// 	{
-// 		title: 'Design & Creative',
-// 		list: [
-// 			{
-// 				icon: Figma,
-// 				text: 'UX Designer',
-// 			},
-// 			{
-// 				icon: Photoshop,
-// 				text: 'Graphics Designer',
-// 			},
-// 			{
-// 				icon: Illus,
-// 				text: 'Illustration Artist',
-// 			},
-// 			{
-// 				icon: Unreal,
-// 				text: 'Unreal Engine',
-// 			},
-// 			{
-// 				icon: Cinema,
-// 				text: 'Cinema 4D',
-// 			},
-// 		],
-// 	},
-// ];
+export const processList = [
+	{
+		id: 1,
+		title: 'Resume Screening',
+		description:
+			'Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit.',
+	},
+	{
+		id: 2,
+		title: 'Video Interview',
+		description:
+			'Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit.',
+	},
+	{
+		id: 3,
+		title: 'Technical Evaluation',
+		description:
+			'Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit.',
+	},
+	{
+		id: 4,
+		title: 'Application Review',
+		description:
+			'Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit.',
+	},
+	{
+		id: 5,
+		title: "Let's get to work",
+		description:
+			'Candidates are assessed through skill based questions in a virtual setting. Allowing you to gauge personality and cultural fit.',
+	},
+];
