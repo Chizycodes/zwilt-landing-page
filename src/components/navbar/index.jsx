@@ -1,5 +1,5 @@
 import React from 'react';
-import Menu from './menu';
+import Menu from './NavMenu';
 import Logo from '../../assets/logo.svg';
 import { Link, NavLink } from 'react-router-dom';
 import { MenuIcon } from '../../assets/svgIcons';
