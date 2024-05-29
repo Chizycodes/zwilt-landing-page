@@ -18,11 +18,14 @@ const Hero = () => {
 					With our rigorous pre-vetting process, you'll never have to worry about finding the ideal candidate ever
 					again.
 				</p>
-				<div className="flex h-[74px] w-full max-w-[570px] relative">
+				<div className="flex  md:h-[74px] w-full max-w-[570px] relative">
+					<div className="h-full bg-white border-[1.5px] border-[#F0F0F0] border-r-0 rounded-2xl rounded-e-none py-3 pl-3 flex items-center text-nowrap relative left-2 font-semibold">
+						Looking for
+					</div>
 					<input
 						type="text"
-						placeholder="Looking for design |"
-						className="input w-full h-full bg-white border-[1.5px] border-[#F0F0F0] rounded-2xl rounded-e-none"
+						placeholder="design |"
+						className="input w-full h-full bg-white border-[1.5px] border-[#F0F0F0] border-l-0 rounded-e-none focus:outline-none"
 					/>
 					<button className="btn h-full bg-secondary border-none hover:bg-secondary w-[74px] rounded-2xl relative right-3">
 						<img src={LogoImg} alt="Logo image" />
