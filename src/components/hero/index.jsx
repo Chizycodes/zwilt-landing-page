@@ -2,6 +2,7 @@ import React, { useState } from 'react';
 import GifImg from '../../assets/hero-gif.gif';
 import LogoImg from '../../assets/logo-dark.svg';
 import { roleList } from '../../utils';
+import { Link } from 'react-router-dom';
 
 const tabs = ['IT & Development', 'Design & Creative'];
 
@@ -50,9 +51,9 @@ const Hero = () => {
 
 					<div className="grid grid-cols-2 lg:grid-cols-3 gap-3 w-full lg:pl-20">
 						{roleList.map((role, i) => (
-							<p key={i} className="text-textGray text-left">
+							<Link to="/" key={i} className="text-textGray text-left hover:font-medium hover:text-textDark">
 								{role}
-							</p>
+							</Link>
 						))}
 					</div>
 				</div>

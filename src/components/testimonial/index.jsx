@@ -3,6 +3,7 @@ import Quote from '../../assets/quote.svg';
 import Jason from '../../assets/jason.svg';
 import Groove from '../../assets/groovehq.svg';
 import GrooveWhite from '../../assets/groove-white.svg';
+import Logo from '../../assets/logo-dark-purple.svg';
 import Button from '../Button';
 
 const Testimonial = () => {
@@ -20,16 +21,16 @@ const Testimonial = () => {
 							Zwilt enabled us to deliver on time and they’ve been heavy hitters in our corner since.
 						</p>
 
-						<div className='flex items-center justify-center lg:justify-start'>
-							<Button className="bg-white mr-4" imageStyle="rotate-180" />
-							<Button className="bg-white" />
+						<div className="flex items-center justify-center lg:justify-start">
+							<Button className="bg-white mr-4" imageStyle="rotate-180" logoDark={false} image={Logo} />
+							<Button className="bg-white" logoDark={false} image={Logo} />
 						</div>
 					</div>
 
 					<div className="max-w-lg mt-10">
 						<div className="flex items-center gap-2">
 							<div className="md:w-[98px] md:h-[98px] w-[78px] h-[78px] md:rounded-[40px] rounded-[28px] bg-darkPurple flex items-center justify-center">
-								<img src={GrooveWhite} alt="groove white" className='w-14 md:w-auto' />
+								<img src={GrooveWhite} alt="groove white" className="w-14 md:w-auto" />
 							</div>
 							<div>
 								<p className="md:text-3xl text-xl font-bold mb-1">Jason Makki</p>

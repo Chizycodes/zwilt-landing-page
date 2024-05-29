@@ -1,6 +1,6 @@
 # Zwilt Landing Page
 
-The Zwilt Landing Page is designed to be a responsive, user-friendly interface showcasing the services offered. The implementation uses modern web development tools such as React, Vite, Tailwind CSS, and Daisy UI. Key features include a slanted border design, FAQ accordion, carousel, and hover effects on various elements.
+The Zwilt Landing Page is designed to be a responsive, user-friendly interface showcasing the services offered. The implementation uses modern web development tools such as React, Vite, Tailwind CSS, and Daisy UI. Key features include a slanted border design, FAQ accordion, carousel for the 'why choose zwilt' section, and hover effects on various elements.
 
 ## Notable Decisions
 
