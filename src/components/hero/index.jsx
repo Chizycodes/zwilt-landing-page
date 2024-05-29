@@ -11,15 +11,15 @@ const Hero = () => {
 
 	return (
 		<section className="flex justify-center mt-20">
-			<div className="w-full text-textDark flex flex-col items-center gap-10">
-				<h1 className="max-w-3xl md:text-5xl text-3xl font-bold lg:leading-[64px] text-center">
+			<div className="w-full text-textDark flex flex-col items-center ">
+				<h1 className="max-w-2xl md:text-5xl text-3xl font-bold text-center mb-8">
 					Finding the right fit <img src={GifImg} alt="Gif" className="w-16 inline" /> has never been easier.
 				</h1>
-				<p className="md:text-[22px] text-lg mg:leading-[32px] max-w-[582px] text-center">
+				<p className="md:text-[22px] text-lg max-w-[582px] text-center">
 					With our rigorous pre-vetting process, you'll never have to worry about finding the ideal candidate ever
 					again.
 				</p>
-				<div className="flex  md:h-[74px] w-full max-w-[570px] relative">
+				<div className="flex md:h-[64px] w-full max-w-[570px] relative my-10">
 					<div className="h-full bg-white border-[1.5px] border-[#F0F0F0] border-r-0 rounded-2xl rounded-e-none py-3 pl-3 flex items-center text-nowrap relative left-2 font-semibold">
 						Looking for
 					</div>
@@ -51,7 +51,11 @@ const Hero = () => {
 
 					<div className="grid grid-cols-2 md:grid-cols-3 gap-3 w-full lg:pl-20">
 						{roleList.map((role, i) => (
-							<Link to="/" key={i} className="text-textGray text-left hover:font-medium hover:text-textDark text-sm md:text-base">
+							<Link
+								to="/"
+								key={i}
+								className="text-textGray text-left hover:font-medium hover:text-textDark text-sm md:text-base"
+							>
 								{role}
 							</Link>
 						))}
