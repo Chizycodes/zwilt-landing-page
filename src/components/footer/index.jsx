@@ -26,7 +26,7 @@ const FooterLinks = [
 const index = () => {
 	return (
 		<section className="text-textDark footer-gradient min-h-screen slanted-top relative bottom-0 py-20">
-			<div className="section px-8">
+			<div className="section px-8 pb-5">
 				<div className="slanted-footer bg-primary w-full flex flex-col items-center justify-center px-3 py-20 gap-4 mb-28">
 					<h1 className="text-center text-white text-3xl md:text-5xl font-semibold max-w-[683px]">
 						Need a job done, and done well? Get started
@@ -87,7 +87,7 @@ const index = () => {
 			<div className="border-t border-[#a0a3b13b] absolute bottom-0 w-full">
 				<div className="section px-8 py-4 flex justify-between gap-6 text-white text-sm md:text-base font-medium">
 					<p>All rights reserved by Zwilt</p>
-					<div className='flex flex-wrap gap-2 md:gap-5 text-textGray'>
+					<div className='flex flex-wrap justify-end gap-2 md:gap-5 text-textGray'>
 						<Link to="/" className='link'>Privacy Policy</Link>
 						<Link to="/" className='link'>Terms and Conditions</Link>
 					</div>
