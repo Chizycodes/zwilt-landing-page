@@ -8,9 +8,8 @@ const Section2 = () => {
 	return (
 		<section className="w-full bg-purpleBg py-20 lg:py-40 slanted-border relative lg:bottom-5">
 			<div className="section px-8 text-textDark">
-				<h1 className="md:text-5xl text-3xl text-center font-bold mb-10 lg:mb-20">
-					Your one-stop marketplace for finding
-					<br /> the talent your business needs.
+				<h1 className="md:text-5xl text-3xl text-center font-bold mb-10 lg:mb-20 max-w-[900px] mx-auto">
+					Your one-stop marketplace for finding the talent your business needs.
 				</h1>
 
 				{Skills.map((skill, i) => (
@@ -28,11 +27,7 @@ const Section2 = () => {
 				))}
 
 				<div className="flex items-center justify-between gap-2 lg:gap-20 md:text-[22px]">
-					<AnimatedBtn
-						className="bg-textDark"
-						logoDark={false}
-						text="Explore More"
-					/>
+					<AnimatedBtn className="bg-textDark" logoDark={false} text="Explore More" />
 
 					<div className="md:absolute md:left-[46.5%]">
 						<p>
