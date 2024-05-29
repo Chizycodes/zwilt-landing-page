@@ -52,7 +52,6 @@ const StartJourney = () => {
 							<p className="text-base text-textGray">{item.description}</p>
 
 							<AnimatedBtn
-								className="bg-textDark rounded-[20px]"
 								logoDark={false}
 								text={item.buttonText}
 							/>

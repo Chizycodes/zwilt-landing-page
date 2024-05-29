@@ -6,9 +6,7 @@ const RightSection = ({ skill }) => {
 		<div className="bg-white rounded-lg p-7">
 			<p className="mb-5 font-medium">{skill.title}</p>
 			<div className="flex items-start gap-5 carousel w-full">
-				{skill.id === 1 && (
-					<Button className="rotate-180 carousel-item" bg="bg-lightGray" />
-				)}
+				{skill.id === 1 && <Button className="rotate-180 carousel-item md:w-[44px] w-[44px]" bg="bg-lightGray" />}
 
 				{skill.skills.map((s, i) => (
 					<div key={i} className="flex flex-col flex-wrap items-center gap-2 carousel-item">
@@ -19,9 +17,7 @@ const RightSection = ({ skill }) => {
 					</div>
 				))}
 
-				{skill.id === 0 && (
-					<Button className="carousel-item" bg="bg-lightGray" />
-				)}
+				{skill.id === 0 && <Button className="carousel-item w-[44px] md:w-[44px]" bg="bg-lightGray" />}
 			</div>
 		</div>
 	);
