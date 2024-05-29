@@ -37,7 +37,7 @@ const JourneyList = [
 
 const StartJourney = () => {
 	return (
-		<div>
+		<div className='md:py-20'>
 			<h1 className="md:text-5xl text-3xl font-bold mb-8 text-center">Start your journey today.</h1>
 
 			{JourneyList.map((item, i) => (
