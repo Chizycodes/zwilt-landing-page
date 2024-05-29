@@ -1,9 +1,8 @@
 import React from 'react';
 import { Skills } from '../../utils';
-import Button from '../Button';
-import LogoPurple from '../../assets/logo-purple.svg';
 import LeftSection from './LeftSection';
 import RightSection from './RightSection';
+import AnimatedBtn from '../Button/AnimatedBtn';
 
 const Section2 = () => {
 	return (
@@ -29,8 +28,8 @@ const Section2 = () => {
 				))}
 
 				<div className="flex items-center justify-between gap-2 lg:gap-20 md:text-[22px]">
-					<Button
-						className="bg-textDark w-[64px] h-[64px] lg:w-[74px] lg:h-[74px] mr-4"
+					<AnimatedBtn
+						className="bg-textDark"
 						logoDark={false}
 						text="Explore More"
 					/>

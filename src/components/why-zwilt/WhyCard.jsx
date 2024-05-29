@@ -1,6 +1,6 @@
 import React from 'react';
 import Point from './Point';
-import Button from '../Button';
+import AnimatedBtn from '../Button/AnimatedBtn';
 
 const dataCard = ({ data }) => {
 	return (
@@ -17,7 +17,7 @@ const dataCard = ({ data }) => {
 					))}
 				</div>
 
-				<Button text="Learn More" logoDark={false} />
+				<AnimatedBtn text="Learn More" logoDark={false} />
 			</div>
 
 			<div>

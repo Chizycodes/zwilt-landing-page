@@ -5,8 +5,7 @@ import Three from '../../assets/three.svg';
 import Group1 from '../../assets/group1.svg';
 import Group2 from '../../assets/group2.svg';
 import Group3 from '../../assets/group3.svg';
-import LogoWhite from '../../assets/logo-purple.svg';
-import Button from '../Button';
+import AnimatedBtn from '../Button/AnimatedBtn';
 
 const JourneyList = [
 	{
@@ -37,7 +36,7 @@ const JourneyList = [
 
 const StartJourney = () => {
 	return (
-		<div className='md:py-20'>
+		<div className="md:py-20">
 			<h1 className="md:text-5xl text-3xl font-bold mb-8 text-center">Start your journey today.</h1>
 
 			{JourneyList.map((item, i) => (
@@ -52,8 +51,8 @@ const StartJourney = () => {
 							<h1 className="md:text-4xl text-xl font-bold">{item.title}</h1>
 							<p className="text-base text-textGray">{item.description}</p>
 
-							<Button
-								className="bg-textDark w-[49px] h-[49px] rounded-[20px] mr-4"
+							<AnimatedBtn
+								className="bg-textDark rounded-[20px]"
 								logoDark={false}
 								text={item.buttonText}
 							/>

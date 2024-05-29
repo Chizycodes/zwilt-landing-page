@@ -15,6 +15,11 @@ export default {
 			},
 		},
 	},
+	variants: {
+		extend: {
+			width: ['group-hover'],
+		},
+	},
 	plugins: [require('daisyui')],
 	daisyui: {
 		themes: false,
