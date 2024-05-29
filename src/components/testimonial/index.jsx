@@ -8,7 +8,7 @@ import Button from '../Button';
 
 const Testimonial = () => {
 	return (
-		<div className="w-full flex bg-textDark min-h-screen slanted-border relative bottom-5 lg:bottom-20">
+		<div className="w-full flex bg-textDark min-h-screen slanted-border relative bottom-5 lg:bottom-20 py-20">
 			<div className="section hero px-8">
 				<img src={Quote} alt="quote" className="absolute top-2 right-3" />
 				<div className="hero-content px-0 text-white justify-between w-full flex-col lg:flex-row">

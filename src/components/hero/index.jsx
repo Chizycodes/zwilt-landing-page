@@ -49,9 +49,9 @@ const Hero = () => {
 						))}
 					</div>
 
-					<div className="grid grid-cols-2 lg:grid-cols-3 gap-3 w-full lg:pl-20">
+					<div className="grid grid-cols-2 md:grid-cols-3 gap-3 w-full lg:pl-20">
 						{roleList.map((role, i) => (
-							<Link to="/" key={i} className="text-textGray text-left hover:font-medium hover:text-textDark">
+							<Link to="/" key={i} className="text-textGray text-left hover:font-medium hover:text-textDark text-sm md:text-base">
 								{role}
 							</Link>
 						))}
